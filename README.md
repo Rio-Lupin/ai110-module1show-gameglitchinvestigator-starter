@@ -26,8 +26,14 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+      the games purpose is to guess the correct number between a range and having a certain number of attempts based on difficulty.
 - [ ] Detail which bugs you found.
+      -start button doesnt work
+      -incorect hints
+      -incorrect range based on difficulty
+      -incorrect informational when difficulty changes
 - [ ] Explain what fixes you applied.
+      -corrected all bugs.
 
 ## 📸 Demo Walkthrough
 
