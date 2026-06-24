@@ -33,9 +33,9 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
 I used copilot.
--One suggestion was that the start button does not restart the status, score or history. i verified the result during my testing of the game and also reviewing the section of the code that details the start new game feature and it was correct it only restarted attemps and secret but not the status , score or history.I entered the code for the missing resets and verified the that it worked by testing in the game. For this i wrote my own code and just took the information of the logic from AI.
+-One suggestion was that the start button does not restart the status, score or history. i verified the result during my testing of the game and also reviewing the section of the code that details the start new game feature and it was correct it only restarted attempts and secret but not the status , score or history.I entered the code for the missing resets and verified the that it worked by testing in the game. For this i wrote my own code and just took the information of the logic from AI.
 
-- another suggestion was that the onscreen prompt did not changes for each difficulty. So i first wrote code to try and fix the issue. however since i am not super familiar with the sintax of python I highlighted the section i wrote and and showed it to copilot and it corrected the synax.i tested this by running the game a checking if it would change based on difficulty..
+- another suggestion was that the onscreen prompt did not changes for each difficulty. So i first wrote code to try and fix the issue. however since i am not super familiar with the sintax of python I highlighted the section i wrote and and showed it to copilot and it corrected the synax.i tested this by running the game a checking if it would change based on difficulty.. the synax that was suggested was correct and i verified by testing the game to see of the function worked
 what i wrote:
 st.info():
 if difficulty == "Easy":
